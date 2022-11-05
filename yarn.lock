@@ -1568,6 +1568,11 @@ pify@^2.3.0:
   resolved "https://vijaygenius123.jfrog.io/artifactory/api/npm/default-npm-virtual/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
   integrity sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==
 
+pocketbase@0.7.4:
+  version "0.7.4"
+  resolved "https://vijaygenius123.jfrog.io/artifactory/api/npm/default-npm-virtual/pocketbase/-/pocketbase-0.7.4.tgz#2ca1fe03215ec278ae7239ef63befb4c002d9ad9"
+  integrity sha512-PvBRi4hbgbiBwDjhHa9lGD/ala8dSTjKeNAsHAgsXdIo4v9RgCk2s3Zqd/4UXVBgTJHVM6F7fGOZPvvJfSNVLQ==
+
 postcss-import@^14.1.0:
   version "14.1.0"
   resolved "https://vijaygenius123.jfrog.io/artifactory/api/npm/default-npm-virtual/postcss-import/-/postcss-import-14.1.0.tgz#a7333ffe32f0b8795303ee9e40215dac922781f0"
