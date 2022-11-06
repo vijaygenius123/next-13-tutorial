@@ -1,5 +1,6 @@
 import Link from "next/link";
 import {db} from "../../utils/db";
+import CreateNote from "./CreateNote";
 
 async function getNotes() {
     const data = await db.records.getList('notes')
@@ -19,6 +20,7 @@ export default async function NotesPage() {
                     ))
                 }
             </div>
+            <CreateNote/>
         </>
     )
 }
@@ -29,7 +31,7 @@ function Note({note}: any) {
     return (
         <div className={"w-96 bg-white px-6 py-4 flex flex-col rounded"}>
             <h2 className={"heading-line font-bold"}>{title}</h2>
-            <h5 className={"flex-grow content-lines"}>{content.substring(0,100)}</h5>
+            <h5 className={"flex-grow content-lines"}>{content.substring(0, 100)}</h5>
             <p>{created}</p>
             <Link className={"self-end justify-self-end link"}
                   href={`/notes/${id}`}>more</Link>
